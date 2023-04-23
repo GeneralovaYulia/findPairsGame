@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+  <script defer type="module" src="JS/script.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <h1 class="title">Game «FIND PAIRS»</h1>
+  <p class="fild-size___description">Select field size</p>
+  <form id="size__select" class="radio__container">
+    <div>
+      <input class="input__radio" type="radio" name="rb" id="rb1" value="1" checked="">
+      <label for="rb1">4*4</label>
+    </div>
+    <div>
+      <input class="input__radio" type="radio" name="rb" id="rb2" value="2">
+      <label for="rb2">6*6</label>
+    </div>
+    <div>
+      <input class="input__radio" type="radio" name="rb" id="rb3" value="3">
+      <label for="rb3">8*8</label>
+    </div>
+    <div>
+      <input class="input__radio" type="radio" name="rb" id="rb4" value="4">
+      <label for="rb4">10*10</label>
+    </div>
+    <button id="button" type="submit" class="fild__btn">Select</button>
+  </form>
+  <p class="timer__title">seconds left:</p>
+  <div class="timer" id="timer">60</div>
+  <p class="description">Click on any card to start</p>
+  <div class="container">
+
+  </div>
+  <button class="retry__btn">Play again</button>
+</body>
+
+</html>
